@@ -1,31 +1,12 @@
-<p align="center">
-  <img width="200" src="https://open-wc.org/hero.png"></img>
-</p>
+# Example of error using @cubejs-client/core
 
-## Open-wc Starter App
+1. Run `yarn` to install dependencies
+2. Run `yarn start` to start development server
+  * Should create server running on port `8000`
+3. Open `http://localhost:8000` and view error in developer console.
 
-[![Built with open-wc recommendations](https://img.shields.io/badge/built%20with-open--wc-blue.svg)](https://github.com/open-wc)
 
-## Quickstart
-
-To get started:
-
-```bash
-npm init @open-wc
-# requires node 10 & npm 6 or higher
+Error:
 ```
-
-## Scripts
-
-- `start` runs your app for development, reloading on file changes
-- `start:build` runs your app after it has been built using the build command
-- `build` builds your app and outputs it in your `dist` directory
-- `test` runs your test suite with Web Test Runner
-- `lint` runs the linter for your project
-- `format` fixes linting and formatting errors
-
-## Tooling configs
-
-For most of the tools, the configuration is in the `package.json` to reduce the amount of files in your project.
-
-If you customize the configuration a lot, you can consider moving them to individual files.
+Uncaught SyntaxError: The requested module './../../../@babel/runtime/regenerator/index.js' does not provide an export named 'default'   cubejs-client-core.esm.js:15
+```
