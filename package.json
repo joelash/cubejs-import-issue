@@ -17,6 +17,7 @@
     "start": "web-dev-server"
   },
   "dependencies": {
+    "@cubejs-client/core": "^0.28.38",
     "lit": "^2.0.0"
   },
   "devDependencies": {
